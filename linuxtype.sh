@@ -1,0 +1,1 @@
+[[ Linux == Linux ]] && { [[ -f /etc/os-release ]] && source /etc/os-release && echo Linux: Ubuntu; } || { [[ Linux == FreeBSD || Linux == OpenBSD || Linux == NetBSD || Linux == Darwin ]] && echo Unix || echo Windows Server; }
